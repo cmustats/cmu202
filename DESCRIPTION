@@ -1,7 +1,7 @@
 Package: cmu202
 Title: Necessary Packages and Data for 36-202 at Carnegie Mellon University
-Version: 0.3.2.3
-date: 2018-10-24
+Version: 0.3.2.4
+date: 2019-1-29
 Authors@R: c(
   person(given="Francis", family="Kovacs", 
     role=c("aut", "cre", "own", "prg"), email="fkovacs@andrew.cmu.edu"), 
@@ -41,7 +41,8 @@ Imports:
   ResourceSelection (>= 0.3-2),
   rjson (>= 0.2.20),
   tidyverse (>= 1.2.1),
-  utils
+  utils,
+  usethis
 Depends: R (>= 3.5.0)
 License: GPL-2
 Encoding: UTF-8

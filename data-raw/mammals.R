@@ -1,8 +1,8 @@
 # Load the data
 
-mammals <- readr::read_csv("http://stat.cmu.edu/202/data/mammals.csv")
+mammals <- read.csv("http://stat.cmu.edu/202/data/mammals.csv")
 
 # Save the data
 
-readr::write_csv(mammals, "data-raw/mammals.csv")
-devtools::use_data(mammals, overwrite = TRUE)
+## readr::write_csv(mammals, "data-raw/mammals.csv")
+usethis::use_data(mammals, overwrite = TRUE)
