@@ -28,7 +28,7 @@ To install the package, run the following code in an R terminal:
 
 ```r
 library(devtools)
-devtools::install_github("frank113/cmu202", build_vignettes = TRUE, version = "0.3.2.3")
+devtools::install_github("cmustats/cmu202_master", build_vignettes = TRUE, version = "0.3.2.3")
 .rs.restartR()
 library(cmu202)
 ```
@@ -111,16 +111,7 @@ To suggest a change, please open a pull request.
 
 # Contact
 
-For any pressing issues related to the cmu202 package, please contact the author at:
+For any pressing issues related to the cmu202 package, please contact the CMU Statistics and Data Science computing group at:
 
-`fkovacs@andrew.cmu.edu`
-
-# Acknowledgements
-
-I would like to thank the following individuals:
-
-+ Professor Rebecca Nugent
-+ Professor Gordon Weinberg
-
-I would also like to cite Howard Seltman, author of some functionality and Kayla Frisoli, author of some vignettes.
+`remarks@stat.cmu.edu`
 
